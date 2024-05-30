@@ -1,0 +1,56 @@
+{
+    "task_name": "ReMIND2Reg",
+    "evaluation_methods": [
+        {
+            "name": "LogJacDetStd",
+            "metric": "sdlogj"
+        },
+        {
+            "name": "TRE_lm",
+            "metric": "tre",
+            "dest": "landmarks"
+        }
+    ],
+    "expected_shape": [
+        256,
+        256,
+        256,
+        3
+    ],
+    "eval_pairs": [
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0099_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0099_0001.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0100_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0100_0001.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0101_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0101_0001.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0102_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0102_0001.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0099_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0099_0002.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0100_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0100_0002.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0101_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0101_0002.nii.gz"
+        },
+        {
+            "fixed": "./imagesTr/ReMIND2Reg_0102_0000.nii.gz",
+            "moving": "./imagesTr/ReMIND2Reg_0102_0002.nii.gz"
+        }
+    ],
+    "eval_config_version": 0.2,
+    "masked_evaluation": false
+}
