@@ -6,4 +6,4 @@ Siebert, Hanna, Lasse Hansen, and Mattias P. Heinrich. "Fast 3D registration wit
 
 ## Acknowledgement
 
-A large portion of the evaluation code was borrowed from https://github.com/multimodallearning/convexAdam/blob/f08ce364efe0a9f00b8cdd7b085d6ae022f61397/l2r_2020_convexAdam_CuRIOUS.py
+A large portion of the code was borrowed from https://github.com/multimodallearning/convexAdam/blob/f08ce364efe0a9f00b8cdd7b085d6ae022f61397/l2r_2020_convexAdam_CuRIOUS.py
