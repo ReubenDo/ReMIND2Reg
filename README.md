@@ -1,6 +1,6 @@
 # ReMIND2Reg: Brain Resection Multimodal Registration
 
-This official repository houses baseline methods, training scripts, and pretrained models for the ReMIND2Reg challenge at Learn2Reg 2024.
+This official repository houses baseline methods, training scripts, and pretrained models for the ReMIND2Reg challenge at Learn2Reg 2025.
 The challenge is dedicated to unsupervised brain pre-operative MR to intraoperative ultrasound image registration.
 
 Please visit https://learn2reg.grand-challenge.org/ for more information.
@@ -19,7 +19,7 @@ Please visit https://learn2reg.grand-challenge.org/ for more information.
 
 **Dataset:** The ReMIND2Reg dataset is a pre-processed subset of the ReMIND dataset, which contains pre- and intra-operative data collected on consecutive patients who were surgically treated with image-guided tumor resection between 2018 and 2024 at the Brigham and Women’s Hospital (Boston, USA). The training (N=99) and validation (N=5) cases correspond to a subset of the public version of the ReMIND dataset. Specifically, the training set includes images of 99 patients with 99 3D iUS, 93 ceT1, and 62 T2 and validation images of 5 patients with 5 3D US, 5 ceT1, and 5 T2. The images are paired as described above with one or two image pairs per patient, resulting in 155 image pairs for training and 10 image pairs for validation. The test cases are not publicly available and will remain private. For details on the image acquisition (scanner details, etc.), please see https://doi.org/10.1101/2023.09.14.23295596 
 
-Number of registration pairs: Training: 155, Validation: 10, Test: 40 (TBC).
+Number of registration pairs: Training: 155, Validation: 10, Test: 20.
 
 **Pre-Processing:** All images are converted to NIfTI. When more than one pre-operative MR sequence was available, ceT1 was affinely co-registered to the T2 using NiftyReg; Ultrasound images were resampled in the pre-operative MR space. Images were cropped in the field of view of the iUS in an image size of 256x256x256 with a spacing of 0.5x0.5x0.5mm.
 
