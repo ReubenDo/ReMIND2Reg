@@ -1,4 +1,4 @@
-# ReMIND2Reg Challenge - MICCAI 2024
+# ReMIND2Reg Challenge - MICCAI 2025
 Example docker containers for the ReMIND2Reg task of the Learn2Reg Challenge organized as part of MICCAI 2024. 
 One docker container is expected for each type of MR sequences (2 in total).
 The script simply predicts a zero displacement field.
